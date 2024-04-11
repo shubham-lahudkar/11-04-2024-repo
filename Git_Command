@@ -1,0 +1,14 @@
+git init   -----To initialize the repository.
+touch index.html   -----touch command is used to create the file.
+git add . ------------This command is used to add the file and reach the stagging stage.
+git commit -m "Inialize the commit" ------- commit the message (-m stand for message)
+git log ------to check the git log.
+git remote add myorigin <paste here remote git URL>    -------  This command is used to add a new remote repository named “myorigin” to your local Git repository.
+git remote
+git remote -v
+git push myorigin master ----- this command is used to push the content from local repository(myorigin) to remote (master).
+git fetch myorigin master
+git merge myorigin/master     -----------This command is used to merge the two different branches. We can also seen the same data in both repositories.
+git log
+git pull myorigin master    -------------This command fetches changes from the remote repository (usually named “origin or any”) in the master branch.
+git pull origin/master         ----------This command pulls changes from a locally stored branch called origin/master.
